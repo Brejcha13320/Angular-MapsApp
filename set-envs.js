@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync } from "fs";
+const { writeFileSync, mkdirSync } = require("fs");
 require("dotenv").config();
 
 const envDirectory = "./src/environments";
