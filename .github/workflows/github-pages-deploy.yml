@@ -35,7 +35,6 @@ jobs:
           echo "$environment" > .env
           npm run build
           ls -l
-          ls -l src
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
