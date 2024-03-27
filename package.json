@@ -5,7 +5,8 @@
     "ng": "ng",
     "envs": "node set-envs.js",
     "start": "ng serve",
-    "build": "npm run envs && ng build",
+    "build": "npm run envs && npm run build:href",
+    "build:href": "ng build --base-href ./",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
